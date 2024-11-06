@@ -163,6 +163,8 @@ export const PopupDesign = styled.div`
     width: 90%;
     height: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
 `
 
