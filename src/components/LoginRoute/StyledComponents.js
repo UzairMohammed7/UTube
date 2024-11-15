@@ -9,9 +9,10 @@ export const LoginContainer = styled.div`
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  background-image: linear-gradient(to top, #e64843, #5c5858);
 `
 export const LoginForm = styled.form`
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  background: #fff;
   border-radius: 5px;
   width: 30%;
   padding: 40px;
@@ -72,7 +73,7 @@ export const CheckboxLabel = styled.label`
 `
 
 export const LoginButton = styled.button`
-  background-color: #3b82f6;
+  background-color: #f25752;
   color: #ffffff;
   font-size: 14px;
   font-family: 'Poppins';
@@ -86,7 +87,7 @@ export const LoginButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: #367ae8;
+    background-color: #f02822;
   }
 `
 export const ShowErrorMsg = styled.p`
