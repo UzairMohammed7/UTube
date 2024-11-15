@@ -182,6 +182,10 @@ export const PopupText = styled.p`
 export const HorizontalButtons = styled.div`
   display: flex;
   align-items: center;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const CancelButton = styled.button`
